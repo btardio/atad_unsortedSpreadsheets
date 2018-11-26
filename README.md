@@ -152,7 +152,7 @@ This solution builds a key / value collection which is indexable by key. This in
 
 This solution uses a class module that looks like. Alternatively we could have built a third (min) and fourth (max) collection with country as key and row number as value.
 
-```vbanet
+```vbnet
 ' rowdateclass Class Module
 
 Private adate As Date
@@ -178,7 +178,7 @@ End Function
 
 The sub procedure looks like:
 
-```vbanet
+```vbnet
 
 Sub total_change_O_n()
 
